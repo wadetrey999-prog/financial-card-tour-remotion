@@ -1,0 +1,12 @@
+{
+  "name": "financial-card-tour", "version": "1.0.0", "private": true,
+  "description": "Editable Remotion recreation of a green financial card tour",
+  "scripts": {
+    "dev": "remotion studio src/index.ts --no-open",
+    "check": "tsc --noEmit",
+    "render": "remotion render src/index.ts FinancialCardTour out/financial-card-tour.mp4"
+  },
+  "dependencies": {"@remotion/cli": "4.0.478", "react": "19.2.3", "react-dom": "19.2.3", "remotion": "4.0.478"},
+  "devDependencies": {"@types/react": "19.2.7", "@types/web": "0.0.166", "typescript": "5.9.3"},
+  "overrides": {"ws": "8.21.0"}
+}
